@@ -1,6 +1,8 @@
 h2{
     background-color: #5599DD;
-    color:#DDDDDD
+    color:#DDDDDD;
+    padding-top: 5px;
+    padding-left: 10px;
 }
 .exp{
     text-indent: 50px;
@@ -8,4 +10,13 @@ h2{
 #email{
     text-decoration: underline;
     font-style: italic;
+}
+body{
+    font-family: ubuntu, helvetica;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cabecalho{
+    text-align: center;
 }
