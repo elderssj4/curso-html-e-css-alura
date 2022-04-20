@@ -22,3 +22,15 @@ h2{
 #tb-nutrientes th{
     background-color: #FFFFFF;
 }
+nav{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 50px;
+
+}
+#topo{
+    text-align: center;
+}
