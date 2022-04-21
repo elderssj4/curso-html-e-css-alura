@@ -5,8 +5,17 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
+#banner{
+
+    width: 300PX;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
 h1{
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 h2{
     background-color: olive;
@@ -18,6 +27,7 @@ h2{
     border-radius: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 #tb-nutrientes{
@@ -33,14 +43,24 @@ h2{
     background-color: #FFFFFF;
 }
 nav{
-    margin-top: 10px;
-    margin-bottom: 20px;
+    float: left;
+}
+nav ul{
+    list-style: none;
+    padding-left: 0;
 }
 nav ul li{
-    display: inline;
-    margin-right: 50px;
-
+    background-color: #9C8f67;
+    margin-bottom: 3px;
 }
+nav ul li:hover{
+    background-color: olive;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
 #topo{
     text-align: center;
     margin-bottom: 10px;
@@ -56,6 +76,7 @@ nav ul li{
     margin-bottom: 30px;
     padding: auto;
     transform: rotate(-3deg);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #topo img{
     margin-top: 25px;
@@ -65,4 +86,11 @@ nav ul li{
 }
 #topo figure figcaption{
     padding-bottom: 40px;
+}
+#conteúdo{
+    float: right;
+   
+}
+.colorida{
+    background-color: rgba(240, 195, 137, 0.877);
 }
