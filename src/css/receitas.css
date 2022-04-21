@@ -10,6 +10,7 @@ h2{
     color: #FFFFFF;
     padding: 5px 10px;
     border-radius: 10px;
+    margin-bottom: 10px;
     
 }
 #tb-nutrientes{
@@ -17,7 +18,9 @@ h2{
     margin-right: auto;
     margin-left: auto;
     margin-top: 10px;
+    margin-bottom: 50px;
     border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 #tb-nutrientes th{
     background-color: #FFFFFF;
@@ -33,4 +36,11 @@ nav ul li{
 }
 #topo{
     text-align: center;
+    margin-bottom: 10px;
+}
+#topo img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
